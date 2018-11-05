@@ -16,7 +16,7 @@ public class NumbersGenerator {
             //Исключаем лишние символы ( ],[,...)
             if (c == 'Z') c = 'a' - 1;
         }
-
+//Это комментарий
         for (char c = '0'; c <= '9'; c++) {
             massive.add(c);
         }
